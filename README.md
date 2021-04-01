@@ -9,14 +9,18 @@ first to form a horizontal, vertical, or diagonal line of five of one's own disc
 The implementation is a server-client communication
 Communicate between the server with REST api, and webSocket
 
-this is a simple java app run from console to demo the server
-
   # How to use 
 
-     ###  setup client
-  $ git clone https://github.com/antainfernandez/fiveInARowGameClient.git
-  $ cd fiveInARowGameClient
-  $ ./gradlew clean build jar
-  $ cd build/libs
- 
- copy jar file , use like java -jar <the jar file>.jar
+   +Setup and run the server
+    
+     $ git clone https://github.com/antainfernandez/fiveInARowGameClient.git
+     $ cd fiveInARowGameClient
+     $ ./gradlew clean build jar
+     $ cd build/libs
+      
+      copy jar file , use like java -jar <the jar file>.jar
+      
+      important ! port is 8081 and end points are setup in variables change if server is in different port
+ #Setup clients	
+   		
+   - [5-in-a-Row - Client](https://github.com/antainfernandez/fiveInARowGameClient)
